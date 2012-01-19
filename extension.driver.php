@@ -32,8 +32,8 @@
 					'page'		=> '/publish/',
 					'delegate'	=> 'Delete',
 					'callback'	=> 'clearCache'
-				),
-			)
+				)
+			);
 		}
 
 		public function clearCache($context) {
