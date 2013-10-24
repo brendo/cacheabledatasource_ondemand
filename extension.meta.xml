@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension id="cacheabledatasource_ondemand" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Cacheable Datasource: On Demand</name>
+	<description lang="en">This extension is created to be an add-on for the Cacheable Datasource extension. It will clear caches when entries are created, updated or deleted in the backend</description>
+	<url type="repo">https://github.com/brendo/cacheabledatasource_ondemand</url>
+	<types>
+		<type>Performance</type>
+	</types>
+	<authors>
+		<author>
+			<name github="brendo" symphony="brendo">Brendan Abbott</name>
+			<website>http://www.bloodbone.ws</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.2" date="2011-10-03" min="2.3">
+			- Symphony 2.3 compatibility
+		</release>
+		<release version="0.1" date="2012-01-19" min="2.2">
+			- Initial release
+		</release>
+	</releases>	
+</extension>
